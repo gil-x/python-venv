@@ -1,4 +1,4 @@
-# Python Venv pour Linux - Tuto vulgaire et incomplet
+# Python Venv - Tuto grossier et incomplet
 
 Le venv est un dossier créé par Python qui contient tous les modules autre que la library standard (ça peut être lourd !), par convention on appelle le venv _"venv"_, mais on pourrait l'appeler _Edmond_, ou _pose-ta-bite-sur-mon-nez_.
 
