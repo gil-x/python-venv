@@ -67,10 +67,8 @@ Pourquoi faire ça ? Allez savoir... les gens sont tordus parfois.
 Il faut juste taper :
 
 ```bash
-	pip freeze > requirements.txt
+	deactivate
 ```
-
-    deactivate
 
 ### Recréer un venv
 
