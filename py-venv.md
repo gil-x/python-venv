@@ -13,22 +13,24 @@ T'as rien compris ? C'est normal. Pas à pas :
 
 Normalement avec Python 3.X.X il n'y a rien de spécial à installer, et ça se passe comme ça (exemples avec des noms différents, ceci créerait donc trois venv pour le prix d'un):
 
-    python -m venv venv
+```bash
+	python -m venv venv
     python -m venv Edmond
     python -m venv pose-ta-bite-sur-mon-nez
+```
 
 ## Activation
 
 Ensuite, **TRÈS IMPORTANT** on _active_ l'environnement (sinon ça sert à rien...).
 Les IDE peuvent parfois les activer tout seul. Anecdote : dans le cas de VS Code, c'est parfaitement aléatoire... La commande :
 
-```bash linux
+```bash
 	. /pose-ta-bite-sur-mon-nez/bin/activate
 ```
 
 Windows :
 
-```bash windows
+```shell
 	pose-ta-bite-sur-mon-nez\Scripts\activate
 ```
 
@@ -74,14 +76,14 @@ Il faut juste taper :
 
 Si un développeur bien intentionné a pensé à mettre un fichier _requirements.txt_, on peut se créer un venv normalement identique ainsi :
 
-```bash linux
+```bash
 	python -m venv Edmond
 	. Edmond/bin/activate
 ```
 
 Windows :
 
-```bash windows
+```shell
 	python -m venv Edmond
 	Edmond\Scripts\activate
 ```
@@ -98,7 +100,7 @@ Et la nouvelle commande pour tout installer d'un coup (et on fait bien attention
 
 Ça peut servir si on est un peu à l'étroit en terme d'espace disque. Sinon, franchement, je conseille pas plus de faire ça que de s'enduire les muqueuses de Baume du Tigre. Voilà comment faire (pour le venv, pas pour le baume) :
 
-```bash linux
+```bash
 	source chemin/vers/dossier-ou-est-le-venv/Edmond/bin/activate
 	cd chemin/vers/dossier-du-projet
 	python mon-programme.py
@@ -106,7 +108,7 @@ Et la nouvelle commande pour tout installer d'un coup (et on fait bien attention
 
 Windows :
 
-```bash windows
+```shell
 	call chemin\vers\dossier-ou-est-le-venv\Edmond\Scripts\activate.bat
 	cd chemin\vers\dossier-du-projet
 	python mon-programme.py
